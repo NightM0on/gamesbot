@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "!";
+var prefix = "§";
 client.on('message', message => {
-    if (message.content == "!سرعه") {
-        var x = ["LioN_Dz",
+    if (message.content == "§سرعه") {
+        var x = ["liYil",
 "DeathGames",
 "زيرو كنج",
 "أرض الأحلام",
@@ -41,7 +41,7 @@ client.on('message', message => {
 "Google",
 "Viber",
 ];
-        var x2 = ['LioNDz',
+        var x2 = ['liYil',
         "DeathGames",
         "زيرو كنج",
         "أرض الأحلام",
@@ -106,7 +106,7 @@ client.on('message', message => {
 })
 
 client.on('message', puz => {
-    if (puz.content == "!لغز") {
+    if (puz.content == "§لغز") {
         var x = ["ما هي حاسة الشم عند الثعبان ؟",
 "ما هو الشي الذي يكسو الناس و هو عار بدون ملابس ؟",
 "ما هو الشي الذي لا يجري و لا يمشي ؟",
@@ -157,7 +157,7 @@ client.on('message', puz => {
 })
 
 client.on('message', fkk => {
-    if (fkk.content == "!فكك") {
+    if (fkk.content == "§فكك") {
         var x = ["المتاح للجميع لا يتاح لي",
 "خعاخع",
 "فيلا",
@@ -208,17 +208,7 @@ client.on('message', fkk => {
 })
 
 
-client.on('ready', () => {
-   console.log(`----------------`);
-      console.log(`Cyhper Script By : LioNDz `);
-        console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : LioNDz ' `);
-    console.log(`----------------`);
-  console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Alpha Codes")
-client.user.setStatus("dnd")
-});
 
 
 
-client.login(NzExMzg0NDgyMjEyNzQxMTcx.XsFKFg.hmxKXCSvHqgzp3XR2mcStCNXUUo);
+client.login(process.env.BOT_TOKEN);//
