@@ -2,7 +2,7 @@ const Discord = require("discord.js");
 const client = new Discord.Client();
 var prefix = "#";
 client.on('message', message => {
-    if (message.content == "#سرعه") {
+    if (message.content == "$fast") {
         var x = ["DreamKing",
 "DeathGames",
 "زيرو كنج",
@@ -206,6 +206,91 @@ client.on('message', fkk => {
         })
     }
 })
+
+
+client.on('message', fkk => {
+    if (fkk.content == "$fast") {
+        var x = ["DreamKing",
+"DeathGames",
+"زيرو كنج",
+"أرض الأحلام",
+"ألبرازيل",
+"العراق",
+"ألمملكة ألعربية ألسعودية",
+"القسطنطينية",
+"النهاية",
+"امازون",
+"جافاسكربت",
+"سهله مو صعبه",
+"طبق رطب مرق بقر",
+"متجر",
+"شجرة الأوغيري",
+"عش العصفور",
+"هلا بلخميس",
+"الحوت الأزرق",
+"بلاد الرافدين",
+"كانيكي",
+"توكا",
+"عادل امام",
+"عمرو ذياب",
+"عمان",
+"مسقط",
+"بغداد عاصمة العراق",
+"Playing Minecraft",
+"Music",
+"FaceBooK",
+"YouTube",
+"Infinity",
+"احبك دريم",
+"Don't Let Me Down",
+"Space",
+"Instgram",
+"Google",
+"Viber",
+];
+        var x2 = ['DreamKing',
+        "DeathGames",
+        "زيرو كنج",
+        "أرض الأحلام",
+		"ألبرازيل",
+		"العراق",
+		"ألمملكة ألعربية ألسعودية",
+		"القسطنطينية",
+		"النهاية",
+		"امازون",
+		"جافاسكربت",
+		"سهله مو صعبه",
+		"طبق رطب مرق بقر",
+		"متجر",
+		"شجرة الأوغيري",
+		"عش العصفور",
+		"هلا بلخميس",
+		"الحوت الأزرق",
+        "بلاد الرافدين",
+        "كانيكي",
+        "توكا",
+        "عادل امام",
+        "عمرو ذياب",
+        "عمان",
+        "مسقط",
+        "بغداد عاصمة العراق",
+        "Playing Minecraft",
+        "Music",
+        "FaceBooK",
+        "YouTube",
+        "Infinity",
+        "احبك دريم",
+        "Don't Let Me Down",
+		"Space",
+		"Instgram",
+		"Google",
+		"Viber",
+		
+        
+        
+        
+        
+        ];
 
 
 client.on('ready', () => {
