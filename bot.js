@@ -1,9 +1,9 @@
 const Discord = require("discord.js");
 const client = new Discord.Client();
-var prefix = "#";
+var prefix = "!";
 client.on('message', message => {
-    if (message.content == "$fast") {
-        var x = ["DreamKing",
+    if (message.content == "!سرعه") {
+        var x = ["LioN_Dz",
 "DeathGames",
 "زيرو كنج",
 "أرض الأحلام",
@@ -41,7 +41,7 @@ client.on('message', message => {
 "Google",
 "Viber",
 ];
-        var x2 = ['DreamKing',
+        var x2 = ['LioNDz',
         "DeathGames",
         "زيرو كنج",
         "أرض الأحلام",
@@ -87,10 +87,10 @@ client.on('message', message => {
         
         var x3 = Math.floor(Math.random()*x.length)
         message.channel.send(` اول شخص يكتب :  __**${x[x3]}**__
-لديك 15 ثانية للاجابة`).then(msg1=> {
+لديك 8 ثانية للاجابة`).then(msg1=> {
             var r = message.channel.awaitMessages(msg => msg.content == x2[x3], {
                 maxMatches : 1,
-                time : 15000,
+                time : 8000,
                 errors : ['time']
             })
         r.catch(() => {
@@ -106,7 +106,7 @@ client.on('message', message => {
 })
 
 client.on('message', puz => {
-    if (puz.content == "#لغز") {
+    if (puz.content == "!لغز") {
         var x = ["ما هي حاسة الشم عند الثعبان ؟",
 "ما هو الشي الذي يكسو الناس و هو عار بدون ملابس ؟",
 "ما هو الشي الذي لا يجري و لا يمشي ؟",
@@ -138,10 +138,10 @@ client.on('message', puz => {
         
         var x3 = Math.floor(Math.random()*x.length)
         puz.channel.send(`السؤال هو:  __**${x[x3]}**__
-لديك 20 ثانية للاجابة`).then(msg1=> {
+لديك 10 ثانية للاجابة`).then(msg1=> {
             var r = puz.channel.awaitMessages(msg => msg.content == x2[x3], {
                 maxMatches : 1,
-                time : 20000,
+                time : 10000,
                 errors : ['time']
             })
         r.catch(() => {
@@ -157,7 +157,7 @@ client.on('message', puz => {
 })
 
 client.on('message', fkk => {
-    if (fkk.content == "#فكك") {
+    if (fkk.content == "!فكك") {
         var x = ["المتاح للجميع لا يتاح لي",
 "خعاخع",
 "فيلا",
@@ -208,102 +208,17 @@ client.on('message', fkk => {
 })
 
 
-client.on('message', fkk => {
-    if (fkk.content == "$fast") {
-        var x = ["DreamKing",
-"DeathGames",
-"زيرو كنج",
-"أرض الأحلام",
-"ألبرازيل",
-"العراق",
-"ألمملكة ألعربية ألسعودية",
-"القسطنطينية",
-"النهاية",
-"امازون",
-"جافاسكربت",
-"سهله مو صعبه",
-"طبق رطب مرق بقر",
-"متجر",
-"شجرة الأوغيري",
-"عش العصفور",
-"هلا بلخميس",
-"الحوت الأزرق",
-"بلاد الرافدين",
-"كانيكي",
-"توكا",
-"عادل امام",
-"عمرو ذياب",
-"عمان",
-"مسقط",
-"بغداد عاصمة العراق",
-"Playing Minecraft",
-"Music",
-"FaceBooK",
-"YouTube",
-"Infinity",
-"احبك دريم",
-"Don't Let Me Down",
-"Space",
-"Instgram",
-"Google",
-"Viber",
-];
-        var x2 = ['DreamKing',
-        "DeathGames",
-        "زيرو كنج",
-        "أرض الأحلام",
-		"ألبرازيل",
-		"العراق",
-		"ألمملكة ألعربية ألسعودية",
-		"القسطنطينية",
-		"النهاية",
-		"امازون",
-		"جافاسكربت",
-		"سهله مو صعبه",
-		"طبق رطب مرق بقر",
-		"متجر",
-		"شجرة الأوغيري",
-		"عش العصفور",
-		"هلا بلخميس",
-		"الحوت الأزرق",
-        "بلاد الرافدين",
-        "كانيكي",
-        "توكا",
-        "عادل امام",
-        "عمرو ذياب",
-        "عمان",
-        "مسقط",
-        "بغداد عاصمة العراق",
-        "Playing Minecraft",
-        "Music",
-        "FaceBooK",
-        "YouTube",
-        "Infinity",
-        "احبك دريم",
-        "Don't Let Me Down",
-		"Space",
-		"Instgram",
-		"Google",
-		"Viber",
-		
-        
-        
-        
-        
-        ];
-
-
 client.on('ready', () => {
    console.log(`----------------`);
-      console.log(`Cyhper Script By : DREAM`);
+      console.log(`Cyhper Script By : LioNDz `);
         console.log(`----------------`);
-      console.log(`ON ${client.guilds.size} Servers '     Script By : DREAM ' `);
+      console.log(`ON ${client.guilds.size} Servers '     Script By : LioNDz ' `);
     console.log(`----------------`);
   console.log(`Logged in as ${client.user.tag}!`);
-client.user.setGame(`Light Games`,"http://twitch.tv/Light")
+client.user.setGame(`Alpha Codes")
 client.user.setStatus("dnd")
 });
 
 
 
-client.login(process.env.BOT_TOKEN);// لا تغير فيها شيء
+client.login(NzExNTkwMTU5ODI4NjQ4MDI2.XsFOng.PrpN-DCKVDmSb_56RUX4hD8Fgig);
